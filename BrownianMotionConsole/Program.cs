@@ -27,7 +27,7 @@ namespace RuchyBrownaConsole
             var vector = vec.CalculateVector(brownPoints[brownPoints.Count - 1]);
             Console.WriteLine($"Wektor = {vector}");
 
-            Console.WriteLine("Nazwę pliku do zapisania danych: ");
+            Console.WriteLine("Podaj nazwę pliku do zapisania danych: ");
             string filePath = Console.ReadLine();
 
             BrownianMotionSaveToCsv saveToCsv = new BrownianMotionSaveToCsv();

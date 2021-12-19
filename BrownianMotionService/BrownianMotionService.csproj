@@ -46,7 +46,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RuchyBrownaModel\BrownianMotionModel.csproj">
+    <ProjectReference Include="..\BrownianMotionModel\BrownianMotionModel.csproj">
       <Project>{b47013e7-fd78-47cb-9a89-4c52ff398fb5}</Project>
       <Name>BrownianMotionModel</Name>
     </ProjectReference>

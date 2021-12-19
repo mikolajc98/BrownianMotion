@@ -13,7 +13,7 @@ namespace BrownianMotionService
         {
             if (point is null) throw new NullReferenceException("First point is null.");
             decimal vector = (decimal)Math.Sqrt(Math.Pow(point.X,2) + Math.Pow(point.Y,2));
-            return vector;
+            return Math.Round(vector,BrownianMotionConsts.precision);
         }
     }
 }
