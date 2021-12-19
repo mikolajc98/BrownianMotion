@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrownianMotionModel", "RuchyBrownaModel\BrownianMotionModel.csproj", "{B47013E7-FD78-47CB-9A89-4C52FF398FB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrownianMotionConsole", "RuchyBrownaConsole\BrownianMotionConsole.csproj", "{525769B0-378A-42A1-B658-5CDD56A1A6C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrownianMotionGUI", "BrownianMotionGUI\BrownianMotionGUI.csproj", "{934AD21F-AB92-455C-B36F-919BB340FC4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrownianMotionService", "BrownianMotionService\BrownianMotionService.csproj", "{0C950CCD-50ED-427F-87D5-08F0404FB4EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B47013E7-FD78-47CB-9A89-4C52FF398FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B47013E7-FD78-47CB-9A89-4C52FF398FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B47013E7-FD78-47CB-9A89-4C52FF398FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B47013E7-FD78-47CB-9A89-4C52FF398FB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{525769B0-378A-42A1-B658-5CDD56A1A6C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{525769B0-378A-42A1-B658-5CDD56A1A6C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{525769B0-378A-42A1-B658-5CDD56A1A6C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{525769B0-378A-42A1-B658-5CDD56A1A6C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{934AD21F-AB92-455C-B36F-919BB340FC4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{934AD21F-AB92-455C-B36F-919BB340FC4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{934AD21F-AB92-455C-B36F-919BB340FC4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{934AD21F-AB92-455C-B36F-919BB340FC4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C950CCD-50ED-427F-87D5-08F0404FB4EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C950CCD-50ED-427F-87D5-08F0404FB4EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C950CCD-50ED-427F-87D5-08F0404FB4EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C950CCD-50ED-427F-87D5-08F0404FB4EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D5E4BE2-532A-4D75-A668-5F66FAC8969A}
+	EndGlobalSection
+EndGlobal
