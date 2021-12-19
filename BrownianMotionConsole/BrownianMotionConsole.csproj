@@ -54,7 +54,7 @@
       <Project>{0c950ccd-50ed-427f-87d5-08f0404fb4ee}</Project>
       <Name>BrownianMotionService</Name>
     </ProjectReference>
-    <ProjectReference Include="..\RuchyBrownaModel\BrownianMotionModel.csproj">
+    <ProjectReference Include="..\BrownianMotionModel\BrownianMotionModel.csproj">
       <Project>{b47013e7-fd78-47cb-9a89-4c52ff398fb5}</Project>
       <Name>BrownianMotionModel</Name>
     </ProjectReference>
