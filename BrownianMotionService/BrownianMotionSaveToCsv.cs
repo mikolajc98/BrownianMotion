@@ -10,7 +10,7 @@ namespace BrownianMotionService
     {
         public const char separator = ';';
 
-        public Result SaveBrownianMotionPointsToCsvFile(string filePath, IEnumerable<BrownPoint> points)
+        public Result SaveDataToCsvFile(string filePath, List<BrownPoint> points, decimal vector)
         {
             if (string.IsNullOrEmpty(filePath))
                 return Result.Fail("Podano pustą ścieżkę.");
@@ -21,6 +21,7 @@ namespace BrownianMotionService
             }
 
             StringBuilder builder = new StringBuilder();
+            builder.AppendLine($"Wygenerowano {points.Count} punktow{separator}Wektor ={separator}{vector}");
             builder.AppendLine($"Numer punktu{separator}X{separator}Y");
 
             for (int i = 0; i < points.ToList().Count; i++)

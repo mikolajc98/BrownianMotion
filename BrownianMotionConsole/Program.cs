@@ -32,13 +32,14 @@ namespace RuchyBrownaConsole
 
             BrownianMotionSaveToCsv saveToCsv = new BrownianMotionSaveToCsv();
 
-            var result = saveToCsv.SaveBrownianMotionPointsToCsvFile(filePath, brownPoints);
+
+            var result = saveToCsv.SaveDataToCsvFile(filePath, brownPoints, vector);
 
             while (result != Result.Ok())
             {
                 Console.WriteLine($"Wystąpił błąd: {result.Error}.\r\nSpróbuj ponownie wybierając plik:");
                 filePath = Console.ReadLine();
-                result = saveToCsv.SaveBrownianMotionPointsToCsvFile(filePath, brownPoints);
+                result = saveToCsv.SaveDataToCsvFile(filePath, brownPoints, vector);
             }
 
             Console.Write("Zakończono działanie programu. Kliknij enter aby zakończyć.");
